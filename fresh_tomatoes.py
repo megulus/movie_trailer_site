@@ -171,17 +171,42 @@ def open_movies_page(movies):
 
 # create movie object instances:
 
-amadeus = media.Movie(title='Amadeus', trailer_url='https://www.youtube.com/watch?v=yIzhAKtEzY0', poster_image='https://upload.wikimedia.org/wikipedia/en/2/2f/Amadeusmov.jpg', storyline="Milos Forman's 1984 film depicts the fictionalized tension between the young, celebrated Wolfgang Amadeus Mozart, and the older, less successful Antonio Salieri. F. Murray Abraham stars as Salieri.")
+amadeus = media.Movie(title='Amadeus', trailer_url='https://www.youtube.com/watch?v=yIzhAKtEzY0',  # noqa
+                      poster_image='https://upload.wikimedia.org/wikipedia/en/2/2f/Amadeusmov.jpg', # noqa
+                      storyline="Milos Forman's 1984 film depicts the fictionalized tension "
+                                "between the young, celebrated Wolfgang Amadeus Mozart, and the older, "
+                                "less successful Antonio Salieri. F. Murray Abraham stars as Salieri.")
 
-money_pit = media.Movie(title='The Money Pit', poster_image='https://upload.wikimedia.org/wikipedia/en/f/f2/Money_pit_movie_poster.jpg', trailer_url='https://www.youtube.com/watch?v=_xe-JZ81y9Q', storyline="Slapstick 1986 comedy starring Tom Hanks and Shelley Long as a couple whose dream house renovation turns into a nightmare.")
+money_pit = media.Movie(title='The Money Pit',
+                        poster_image='https://upload.wikimedia.org/wikipedia/en/f/f2/Money_pit_movie_poster.jpg', # noqa
+                        trailer_url='https://www.youtube.com/watch?v=_xe-JZ81y9Q', # noqa
+                        storyline="Slapstick 1986 comedy starring Tom Hanks and Shelley Long as a "
+                                 "couple whose dream house renovation turns into a nightmare.")
 
-unfaithfully_yours = media.Movie(title='Unfaithfully Yours', trailer_url='https://www.youtube.com/watch?v=tAHP-6C441E', poster_image='https://upload.wikimedia.org/wikipedia/en/5/53/Unfaithfully_Yours_1984_poster.jpg', storyline="1984 screwball comedy about a conductor (Dudley Moore) who becomes suspicious that his young, beautiful wife is having an affair with his friend. Remake of the 1948 film starring Rex Harrison.")
+unfaithfully_yours = media.Movie(title='Unfaithfully Yours',
+                                 trailer_url='https://www.youtube.com/watch?v=tAHP-6C441E', # noqa
+                                 poster_image='https://upload.wikimedia.org/wikipedia/en/5/53/Unfaithfully_Yours_1984_poster.jpg', # noqa
+                                 storyline="1984 screwball comedy about a conductor (Dudley Moore) who becomes "
+                                           "suspicious that his young, beautiful wife is having an affair with his "
+                                           "friend. Remake of the 1948 film starring Rex Harrison.")
 
-spinal_tap = media.Movie(title='This Is Spinal Tap', poster_image='https://upload.wikimedia.org/wikipedia/en/c/c8/Thisisspinaltapposter.jpg', trailer_url='https://www.youtube.com/watch?v=N63XSUpe-0o', storyline='1984 rock "mockumentary" about British hair metal band Spinal Tap.')
+spinal_tap = media.Movie(title='This Is Spinal Tap',
+                         poster_image='https://upload.wikimedia.org/wikipedia/en/c/c8/Thisisspinaltapposter.jpg', # noqa
+                         trailer_url='https://www.youtube.com/watch?v=N63XSUpe-0o', # noqa
+                         storyline='1984 rock "mockumentary" about British hair metal band Spinal Tap.')
 
-blues_brothers = media.Movie(title='Blues Brothers', trailer_url='https://www.youtube.com/watch?v=asM2-YAMWxg', poster_image='https://upload.wikimedia.org/wikipedia/en/a/ae/Bluesbrothersmovieposter.jpg', storyline='Dan Ackroyd and John Belushi are getting the band back together to fullfill a "mission from God" in this 1980 classic. Cameos from some of the greatest musicians of the time.')
+blues_brothers = media.Movie(title='Blues Brothers',
+                             trailer_url='https://www.youtube.com/watch?v=asM2-YAMWxg', # noqa
+                             poster_image='https://upload.wikimedia.org/wikipedia/en/a/ae/Bluesbrothersmovieposter.jpg', # noqa
+                             storyline='Dan Ackroyd and John Belushi are getting the band back together to '
+                                       'fullfill a "mission from God" in this 1980 classic. Cameos from some '
+                                       'of the greatest musicians of the time.')
 
-leningrad_cowboys = media.Movie(title='Leningrad Cowboys Go America', trailer_url='https://www.youtube.com/watch?v=eqyU4MdmQx4', poster_image='https://upload.wikimedia.org/wikipedia/en/2/24/Leningrad_Cowboys_Go_America.jpg', storyline="A less-known 1989 Finnish road trip movie about a fictional Russian band touring America.")
+leningrad_cowboys = media.Movie(title='Leningrad Cowboys Go America',
+                                trailer_url='https://www.youtube.com/watch?v=eqyU4MdmQx4', # noqa
+                                poster_image='https://upload.wikimedia.org/wikipedia/en/2/24/Leningrad_Cowboys_Go_America.jpg', # noqa
+                                storyline="A less-known 1989 Finnish road trip movie about a fictional Russian "
+                                          "band touring America.")
 
 movie_list = [amadeus, blues_brothers, spinal_tap, unfaithfully_yours, money_pit, leningrad_cowboys]
 
